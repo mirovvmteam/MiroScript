@@ -111,7 +111,7 @@ for i, v in pairs(game.RobloxReplicatedStorage:GetDescendants()) do
 end
 
 task.spawn(function()
-    local discord = loadstring(game:HttpGet("https://boykisser.army/p/raw/tf61mc8d21"))()
+    local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WYUI"))()
     local win = discord:Window("Wyvern 1.269.3 - redblues edition [GokuSSJ5FreakyButtSex]")
     local serv = win:Server("Wyvern", "http://www.roblox.com/asset/?id=6031075938")
     local main = serv:Channel("Home")
@@ -194,7 +194,7 @@ task.spawn(function()
                             local endTime = tick()
                             local duration = endTime - startTime
                             print("Bought Item! Took " .. tostring(duration) .. " seconds")
-                            local input = loadstring(game:HttpGet('https://pastebin.com/raw/dYzQv3d8'))()
+                            local input = loadstring(game:HttpGet('https://pastefy.app/J8xudM6E/raw'))()
                             input.press(Enum.KeyCode.F9)
                         end)
                 end)
@@ -519,7 +519,7 @@ task.spawn(function()
             end
         end
         discord:Notification("Success", "Check console by clicking F9 or typing '/console' in the chat.", "Okay!")
-        local input = loadstring(game:HttpGet('https://pastebin.com/raw/dYzQv3d8'))()
+        local input = loadstring(game:HttpGet('https://pastefy.app/J8xudM6E/raw'))()
         input.press(Enum.KeyCode.F9)
     end)
     local games = serv:Channel("Games")
