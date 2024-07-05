@@ -1,6 +1,6 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WL"))()
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WL"))()
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WizardUI"))()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WizardUI"))()
 local MoriWindow = Library:NewWindow("AI Tycoon")
 local SmallSections = MoriWindow:NewSection("Main")
 
@@ -33,10 +33,8 @@ local function autotycoon()
 					if plot.BrickColor == BrickColor.new("Deep orange") or plot.BrickColor == BrickColor.new("Olivine") then
 						wait(0)
 					else
-						character:SetPrimaryPartCFrame(plot.CFrame)
+						character:SetPrimaryPartCFrame(plot.CFrame + Vector3.new(0, 3, 0))
 						wait(1)
-						character.Humanoid.Jump = true
-						wait(0.5)
 					end
 				end
 			end
