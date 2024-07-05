@@ -1,6 +1,6 @@
-loadstring(Game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WL"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WL"))()
 
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WizardUI"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mirovvmteam/MiroScript/main/WizardUI"))()
 local MoriWindow = Library:NewWindow("AI Tycoon")
 local SmallSections = MoriWindow:NewSection("Main")
 
