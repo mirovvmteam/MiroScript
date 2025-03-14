@@ -336,7 +336,7 @@ def full_inference_tab():
                         label=i18n("Export Format"),
                         info=i18n("Select the format to export the audio."),
                         choices=["WAV", "MP3", "FLAC", "OGG", "M4A"],
-                        value="MP3",
+                        value="FLAC",
                         interactive=True,
                         visible=False,
                     )
@@ -443,7 +443,7 @@ def full_inference_tab():
                     label=i18n("Export Format"),
                     info=i18n("Select the format to export the audio."),
                     choices=["WAV", "MP3", "FLAC", "OGG", "M4A"],
-                    value="MP3",
+                    value="FLAC",
                     interactive=True,
                     visible=False,
                 )
