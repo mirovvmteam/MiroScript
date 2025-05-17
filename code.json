@@ -1,0 +1,10 @@
+{
+  "HEARTRNG": {
+    "rewards": [
+      {
+        "type": "Coin",
+        "amount": 1000
+      }
+    ],
+  }
+}
